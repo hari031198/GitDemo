@@ -24,6 +24,9 @@ public class FrameDemo {
 		WebElement source=driver.findElement(By.id("draggable"));
 		WebElement target=driver.findElement(By.id("droppable"));
 		a.dragAndDrop(source, target).build().perform();
+		System.out.println(driver.findElements(By.tagName("iframe")).size());
+		System.out.println(driver.findElements(By.tagName("iframe")).size());
+		System.out.println("testing");
 		
 		//for switch to frame to normal 
 		//driver.switchTo().defaultContent();
