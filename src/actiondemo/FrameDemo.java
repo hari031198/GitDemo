@@ -28,6 +28,7 @@ public class FrameDemo {
 		System.out.println(driver.findElements(By.tagName("iframe")).size());
 		System.out.println("test");
 		System.out.println("test");
+		System.out.println("Hari");
 		
 		//for switch to frame to normal 
 		//driver.switchTo().defaultContent();
