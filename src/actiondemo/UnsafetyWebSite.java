@@ -16,6 +16,7 @@ public class UnsafetyWebSite {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://expired.badssl.com/");
 		System.out.println(driver.getTitle());
+		System.out.println("test");
 
 	}
 

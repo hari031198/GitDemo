@@ -26,7 +26,8 @@ public class FrameDemo {
 		a.dragAndDrop(source, target).build().perform();
 		System.out.println(driver.findElements(By.tagName("iframe")).size());
 		System.out.println(driver.findElements(By.tagName("iframe")).size());
-		System.out.println("testing");
+		System.out.println("test");
+		System.out.println("test");
 		
 		//for switch to frame to normal 
 		//driver.switchTo().defaultContent();

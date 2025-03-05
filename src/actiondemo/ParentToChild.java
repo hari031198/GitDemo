@@ -30,6 +30,7 @@ public class ParentToChild {
 		 
 		 driver.switchTo().window(parentid);
 		 driver.findElement(By.id("username")).sendKeys(emailid);
+ 		System.out.println("test");
 
 	}
 
